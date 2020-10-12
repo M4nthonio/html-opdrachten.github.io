@@ -106,7 +106,6 @@ blockquote{
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 30px;
-    height: 380px;
 }
 
 #bigshowcase-overons{
@@ -115,7 +114,7 @@ blockquote{
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 30px;
-    height: 380px;
+
 }
 
 #showcase{
@@ -532,9 +531,33 @@ input[type=submit-2]:hover {
     float: none;
 }
 
+.my-meal #meals{
+    width: 97%;
+    border: 0px solid #000;
+    text-align: center;
+    min-height: 35px;
+    padding-right: 15px;
+}
+
+.my-dishes #dishes{
+    width: 97%;
+    border: 0px solid #000;
+    text-align: center;
+    min-height: 35px;
+}
+
 .send-button #send{
     width: 100%; 
     float: none;;
+}
+
+#bigshowcase{
+    background-image: url('../images/showcase.jpg');
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+    float: none;
 }
 
 #bigshowcase-overons{
@@ -543,7 +566,7 @@ input[type=submit-2]:hover {
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 120px;
-    height: 380px;
+
     float: none;
 }
 
