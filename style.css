@@ -531,6 +531,21 @@ input[type=submit-2]:hover {
     float: none;
 }
 
+.my-meal #meals{
+    width: 97%;
+    border: 0px solid #000;
+    text-align: center;
+    min-height: 35px;
+    padding-right: 15px;
+}
+
+.my-dishes #dishes{
+    width: 97%;
+    border: 0px solid #000;
+    text-align: center;
+    min-height: 35px;
+}
+
 .send-button #send{
     width: 100%; 
     float: none;;
