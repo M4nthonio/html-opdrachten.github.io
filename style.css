@@ -536,6 +536,15 @@ input[type=submit-2]:hover {
     float: none;;
 }
 
+#bigshowcase{
+    background-image: url('../images/showcase.jpg');
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+    float: none;
+}
+
 #bigshowcase-overons{
     background-position-y: center;
     background-position-x: center;
