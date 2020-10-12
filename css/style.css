@@ -94,6 +94,8 @@ blockquote{
     background-color: coral;
     width: 120px;
     text-align: center;
+
+ 
 }
 
 /* showcase */
@@ -232,6 +234,13 @@ line-height: 1.4em;
     padding-bottom: 30px;
 }
 
+#main-overons h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 36px;
+    color: rgb(252, 82, 21);
+    line-height: 1.4em;
+    }
+
 /* sidebar */
 #sidebar{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -308,6 +317,10 @@ line-height: 1.4em;
     margin: 25px;
     text-decoration: none;
 }
+
+
+
+
 
 .center {
     width: 95%;
@@ -423,13 +436,14 @@ input[type=submit-2]:hover {
 }
 
 .main-footer{
-    position: fixed;
-    float: left;
-    padding-bottom: 0;
-    width: 100%;
+    position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
     background-color: #333;
     color: #fff;
-
+    text-align: left;
+    margin-top: 284px;
 
 }
 
@@ -537,7 +551,7 @@ input[type=submit-2]:hover {
 }
 
 .my-dishes #dishes{
-    width: 97%;
+    width: 9%;
     border: 0px solid #000;
     text-align: center;
     min-height: 35px;
